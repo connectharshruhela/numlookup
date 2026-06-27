@@ -48,4 +48,5 @@ def number():
         return jsonify({"error": str(e)}), 500
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=10000)&num=9876543210
+    if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=10000)
